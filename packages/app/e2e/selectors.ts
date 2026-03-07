@@ -51,6 +51,8 @@ export const dropdownMenuContentSelector = '[data-component="dropdown-menu-conte
 
 export const inlineInputSelector = '[data-component="inline-input"]'
 
+export const sessionTimelineHeaderSelector = "[data-session-title]"
+
 export const sessionItemSelector = (sessionID: string) => `${sidebarNavSelector} [data-session-id="${sessionID}"]`
 
 export const workspaceItemSelector = (slug: string) =>
